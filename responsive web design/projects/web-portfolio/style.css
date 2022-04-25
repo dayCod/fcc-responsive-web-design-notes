@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 10pt;
+}
+
+#navbar {
+  position: fixed;
+}
+
+#welcome-section {
+  height: 100vh;
+}
+
+@media screen and (min-width: 990px) {
+  body {
+    font-size: 14pt;
+  }
+}

@@ -1,0 +1,15 @@
+#nav-bar {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+#nav-bar .nav-link {
+  text-decoration: none;
+}
+
+@media screen and (min-width: 567px) {
+  #nav-bar {
+    gap: 8px;
+  }
+}

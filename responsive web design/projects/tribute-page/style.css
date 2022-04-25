@@ -1,0 +1,85 @@
+#main {
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+  background-color: #fff;
+}
+
+#title {
+  text-align: center;
+}
+
+h1 {
+  font-size: 30pt;
+  margin-top: 15px;
+  text-transform: uppercase;
+}
+
+#tribute-info {
+  font-size: 10pt;
+  text-transform: uppercase;
+}
+
+#image {
+  height: auto;
+  margin: auto;
+  display: block;
+  max-width: 100%;
+}
+
+#image-label {
+  font-size: 15px;
+}
+
+#main-content {
+  max-width: 800px;
+  margin: auto;
+}
+
+#bill-titles {
+  text-align: center;
+  font-size: 15pt;
+  margin-bottom: 20px;
+}
+
+.text-content {
+  text-align: justify;
+}
+
+#tribute {
+  text-align: center;
+  font-size: 13pt;
+}
+
+#footer-content {
+  text-align: center;
+  margin: 20px 0 10px 0;
+}
+
+#footer-content section {
+  font-size: 10pt;
+}
+
+#footer-content section #tribute-link {
+  text-decoration: none;
+  color: blue;
+}
+
+#footer-content section #tribute-link:hover {
+  color: rgb(82, 82, 255);
+}
+
+@media only screen and (min-width: 480px) {
+}
+
+@media only screen and (min-width: 767px) {
+}
+
+@media only screen and (min-width: 991px) {
+}
+
+@media only screen and (min-width: 1200px) {
+}
+
+@media (orientation: landscape) {
+}
