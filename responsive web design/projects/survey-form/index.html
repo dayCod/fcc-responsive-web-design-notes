@@ -28,7 +28,7 @@
           <input type="number" id="number" placeholder="Enter Your Phone Number" min="10" max="13" /><br />
         </div>
         <div class="form-group">
-          <label for="dropdown">Select Your Favorite Device</label>
+          <label for="dropdown" id="dropdown-label">Select Your Favorite Device</label>
           <select id="dropdown">
             <option value="" hidden>Choose One</option>
             <option value="Laptop">Laptop</option>
@@ -37,23 +37,27 @@
           </select>
         </div>
         <div class="form-group">
-          <p>Choose your Favorite Brands</p>
+          <p id="brand-label">Choose your Favorite Brands</p>
           <label for="asus"> <input type="radio" id="asus" name="user-brand" value="Asus" /> Asus</label>
           <label for="samsung"> <input type="radio" id="samsung" name="user-brand" value="Samsung" /> Samsung</label>
           <label for="apple"> <input type="radio" id="apple" name="user-brand" value="Apple" /> Apple</label>
         </div>
         <div class="form-group">
-          <p>Choose Your Favorite Games</p>
+          <p id="games-label">Choose Your Favorite Games</p>
           <label for="elden-ring"><input type="checkbox" name="user-games" id="elden-ring" value="Elden Ring" /> Elden Ring</label>
           <label for="dota-two"><input type="checkbox" name="user-games" id="dota-two" value="Dota II" /> Dota 2</label>
-          <label for="Mario Bros"><input type="checkbox" name="user-games" id="mario-bros" value="Mario Bros" /> Mario Bros</label>
+          <label for="mario-bros"><input type="checkbox" name="user-games" id="mario-bros" value="Mario Bros" /> Mario Bros</label>
         </div>
         <div class="form-group">
-          <p>Any Comments or Suggestions ?</p>
+          <p id="comment-label">Any Comments or Suggestions ?</p>
           <textarea name="text-area" id="text-area" cols="30" rows="10"></textarea>
         </div>
         <input type="submit" value="Submit" id="submit" />
+        <input type="reset" value="Reset" id="reset" />
       </form>
+      <footer>
+        <p>This Survey Form are'nt Real, &copy;freeCodeCamp Purposes<a href="https://freecodecamp.org" target="_blank" id="footer-hyperlink"> Click Here For Going to the FCC Website</a></p>
+      </footer>
     </div>
   </body>
 </html>

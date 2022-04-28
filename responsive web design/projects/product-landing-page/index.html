@@ -8,22 +8,50 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header id="header">
-      <img src="http://natakom.com/wp-content/uploads/2015/06/Banner-01.jpg" alt="" id="header-img" />
-      <nav id="nav-bar">
-        <a href="#feature" class="nav-link">Feature</a>
-        <a href="#how-it-works" class="nav-link">How it Works</a>
-        <a href="#package" class="nav-link">Package</a>
-      </nav>
-    </header>
+    <div id="nav-wrapper">
+      <header id="header">
+        <nav id="nav-bar">
+          <ul class="nav-list">
+            <li><a href="#" id="home" class="home">FCC-Product Landing Page</a></li>
+            <li id="nav-link"><a href="#feature" class="nav-link">Feature</a></li>
+            <li id="nav-link"><a href="#how-it-works" class="nav-link">How it Works</a></li>
+            <li id="nav-link"><a href="#package" class="nav-link">Package</a></li>
+          </ul>
+        </nav>
+      </header>
+    </div>
     <form id="form" action="https://www.freecodecamp.com/email-submit">
-      <input type="email" name="email" id="email" placeholder="Email Here..." />
-      <input type="submit" value="Submit" id="submit" />
+      <input type="search" name="search" id="search" placeholder="Search anything you want.." />
+      <input type="submit" value="Search" id="submit" />
     </form>
     <section id="feature">
       <div id="feature-content">
         <h2 id="feature-title">Feature</h2>
-        <p id="feature-caption">these is a feature that we offer to you</p>
+        <p id="feature-caption">These is a feature that we offer to you</p>
+        <div id="feature-one">
+          <img src="icon/github.png" alt="First Feature" id="feature-one-img" />
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. At nesciunt labore quo, voluptas velit animi sit error, distinctio tempore reiciendis maxime commodi tempora amet mollitia? Excepturi repellat omnis corrupti, consequatur
+            qui dicta quis, voluptates dignissimos illo itaque tenetur vero praesentium odit, alias labore? Quo exercitationem, nihil sint quod est consectetur aspernatur molestias aliquid. Soluta dolorum, ipsum iste maxime accusamus
+            temporibus!
+          </p>
+        </div>
+        <div id="feature-two">
+          <img src="icon/gmail.png" alt="Second Feature" id="feature-two-img" />
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi doloremque voluptatibus minus id dignissimos sint quibusdam sapiente impedit eveniet fugiat. Voluptatum quibusdam dolorum accusantium expedita! Ea minus quod, dicta
+            ex magnam maxime? Nemo temporibus voluptatibus quo et accusamus, consequuntur aliquam reprehenderit illum! Id impedit, vitae ad accusamus molestias assumenda iure quis consectetur architecto dolores porro, reprehenderit
+            doloribus nostrum, autem sit.
+          </p>
+        </div>
+        <div id="feature-three">
+          <img src="icon/linkedin.png" alt="Third Feature" id="feature-three-img" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo quo hic pariatur aliquid perferendis quisquam aliquam autem praesentium cumque et dolores nesciunt inventore odit, tenetur qui eum molestiae cupiditate doloribus?
+            Adipisci, tempora ex officiis voluptatem reprehenderit neque, qui animi sapiente totam ipsum, aspernatur consequuntur. Sit, iusto ea animi, quibusdam eaque fuga autem itaque mollitia quaerat enim sapiente natus ratione
+            blanditiis!
+          </p>
+        </div>
       </div>
     </section>
     <section id="how-it-works">
@@ -36,7 +64,39 @@
     <section id="package">
       <div id="package-content">
         <h2 id="package-title">Package</h2>
-        <p id="package-title">You Can Choose The Package Below</p>
+        <p id="package-caption">You Can Choose The Package Below</p>
+        <div class="package-grid">
+          <div id="bronze-package">
+            <img src="img/projects.jpg" alt="Bronze Package" id="bronze-package-img" />
+            <caption>
+              <p id="bronze-caption">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa impedit, obcaecati magni quia, illum saepe aperiam doloribus aut dolorum illo nobis? Eaque, officia facilis voluptatum praesentium assumenda rem, totam nobis
+                quibusdam ut tenetur dolorum reprehenderit in animi nulla. Nihil, amet.
+              </p>
+            </caption>
+            <input type="submit" id="bronze-button" value="Check" />
+          </div>
+          <div id="silver-package">
+            <img src="img/projects.jpg" alt="Silver Package" id="silver-package-img" />
+            <caption>
+              <p id="silver-caption">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa impedit, obcaecati magni quia, illum saepe aperiam doloribus aut dolorum illo nobis? Eaque, officia facilis voluptatum praesentium assumenda rem, totam nobis
+                quibusdam ut tenetur dolorum reprehenderit in animi nulla. Nihil, amet.
+              </p>
+            </caption>
+            <input type="submit" id="silver-button" value="Check" />
+          </div>
+          <div id="gold-package">
+            <img src="img/projects.jpg" alt="Gold Package" id="gold-package-img" />
+            <caption>
+              <p id="gold-caption">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa impedit, obcaecati magni quia, illum saepe aperiam doloribus aut dolorum illo nobis? Eaque, officia facilis voluptatum praesentium assumenda rem, totam nobis
+                quibusdam ut tenetur dolorum reprehenderit in animi nulla. Nihil, amet.
+              </p>
+            </caption>
+            <input type="submit" id="gold-button" value="Check" />
+          </div>
+        </div>
       </div>
     </section>
   </body>
